@@ -1,0 +1,10 @@
+server:
+  port: 8095
+
+CAP:
+  ribbon:
+    listOfServers: https://wso2gtwwi.addcnet.com:8243/capadresse_neo_company/v1.0.0
+    
+logging.level.fr.descours.services.mail.feign.transform: TRACE
+logging.level.fr.descours.services.mail.feign.CAP: TRACE
+logging.level.fr.descours.services.mail.feign.IAM.ISClient: TRACE
